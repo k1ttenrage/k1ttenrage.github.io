@@ -1,1 +1,2 @@
-robots here
+User-agent: *
+Disallow: /secret-page/

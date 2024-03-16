@@ -1,0 +1,5 @@
+<Directory "/secret-page/">
+    Options -Indexes 
+    Order deny, allow 
+    Deny from all
+</Directory>
