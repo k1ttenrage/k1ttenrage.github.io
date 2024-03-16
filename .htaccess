@@ -1,5 +1,3 @@
-<Directory "/secret-page/">
-    Options -Indexes 
-    Order deny, allow 
-    Deny from all
-</Directory>
+<Files "secret-page/secret_1.html">
+    Header set X-Robots-Tag "noindex, nofollow"
+</Files>
